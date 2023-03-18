@@ -21,37 +21,40 @@
 	<li>Clone this repository and Darknet framework:</li>
 
 	<pre>
-		git clone https://github.com/&lt;username&gt;/detections-yolov3.git
-		git clone https://github.com/AlexeyAB/darknet.git
-	</pre>
+	git clone https://github.com/&lt;username&gt;/detections-yolov3.git
+	git clone https://github.com/AlexeyAB/darknet.git
+</pre>
 
-	<li>Compile the Darknet framework:</li>
+<li>Compile the Darknet framework:</li>
 
-	<pre>
-		cd darknet
-		make
-	</pre>
+<pre>
+	cd darknet
+	make
+</pre>
 
-	<li>Download the pre-trained YOLOv3 weights:</li>
+<li>Download the pre-trained YOLOv3 weights:</li>
 
-	<pre>
-		wget https://pjreddie.com/media/files/yolov3.weights
-	</pre>
+<pre>
+	wget https://pjreddie.com/media/files/yolov3.weights
+</pre>
 
-	<li>Place the <code>detections-yolov3</code> directory inside the Darknet directory:</li>
+<li>Place the <code>detections-yolov3</code> directory inside the Darknet directory:</li>
 
-	<pre>
-		mv detections-yolov3 darknet/
-		cd darknet/detections-yolov3/
-	</pre>
+<pre>
+	mv detections-yolov3 darknet/
+	cd darknet/detections-yolov3/
+</pre>
 
-	<li>Run the YOLOv3 detection script on a sample image:</li>
+<li>Run the YOLOv3 detection script on a sample image:</li>
 
-	<pre>
-		./detect_yolov3.sh &lt;path_to_image_file&gt;
-	</pre>
+<pre>
+	./detect_yolov3.sh &lt;path_to_image_file&gt;
+</pre>
 
-	<p>The output of the script will be a new image file with bounding boxes and labels around the detected objects.</p>
+<p>The output of the script will be a new image file with bounding boxes and labels around the detected objects.</p>
+
+	Run the YOLOv3 detection script on a sample image
+
 </ol>
 
 <h2>Customization</h2>
