@@ -59,8 +59,8 @@
 <p>You can customize the detection settings by modifying the following parameters in the <code>detect_yolov3.sh</code> script:</p>
 
 <ul>
-	<li><code>THRESHOLD</code>: Detection threshold for object confidence (default: 0.5)</li>
-	<li><code>NMS_THRESHOLD</code>: Non-maximum suppression threshold (default: 0.45)</li>
+	<li><code>THRESHOLD</code>: Detection threshold for object confidence (default: 0.6)</li>
+	<li><code>NMS_THRESHOLD</code>: Non-maximum suppression threshold (default: 0.7)</li>
 	<li><code>CONFIG_FILE</code>: Path to YOLOv3 configuration file (default: <code>cfg/yolov3.cfg</code>)</li>
 	<li><code>WEIGHTS_FILE</code>: Path to pre-trained YOLOv3 weights file (default: <code>yolov3.weights</code>)</li>
 	<li><code>LABELS_FILE</code>: Path to YOLOv3 labels file (default: <code>data/coco.names</code>)</li>
